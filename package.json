@@ -1,5 +1,5 @@
 {
-  "name": "micro-rpc",
+  "name": "@hharnisc/micro-rpc",
   "version": "0.1.0",
   "description": "Async RPC microservices made easy",
   "main": "index.js",
