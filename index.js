@@ -7,8 +7,14 @@ const {
 module.exports = {
   rpc: (...methods) => async (req, res) => {
     const data = await json(req);
-    req.body = data;
-    const { name, args } = data;
+    const {
+      name,
+      args,
+    } = data;
+    req.rpc = {
+      name,
+      args,
+    };
     const matchingMethod = methods.find((method) => method.name === name);
     if (matchingMethod) {
       const parsedArgs = args ? JSON.parse(args) : [];

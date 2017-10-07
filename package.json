@@ -1,6 +1,6 @@
 {
-  "name": "@bufferapp/micro-rpc",
-  "version": "0.1.7",
+  "name": "micro-rpc",
+  "version": "0.1.0",
   "description": "Async RPC microservices made easy",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bufferapp/micro-rpc.git"
+    "url": "git+https://github.com/hharnisc/micro-rpc.git"
   },
   "keywords": [
     "micro",
@@ -17,9 +17,9 @@
   "author": "Harrison Harnisch <hharnisc@gmail.com> (http://hharnisc.github.io)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bufferapp/micro-rpc/issues"
+    "url": "https://github.com/hharnisc/micro-rpc/issues"
   },
-  "homepage": "https://github.com/bufferapp/micro-rpc#readme",
+  "homepage": "https://github.com/hharnisc/micro-rpc#readme",
   "devDependencies": {
     "micro": "7.3.3"
   }
